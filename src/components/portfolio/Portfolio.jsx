@@ -21,7 +21,7 @@ const items = [
   {
     id: 1,
     title: "Blog App with AI Writing Assistant",
-    img: "./1.bmp",
+    img: "./1.png",
     desc: "This full-stack blog app combines A full-stack Blog App built with React, Node.js, Express, and MySQL. It features JWT-based authentication, post creation, file uploads, and dynamic content fetching — plus an integrated AI Writing Assistant to help users generate and refine blog content.",
     demoUrl:"https://app-vfar.onrender.com", // Replace with your actual demo URL
     githubUrl:"https://github.com/MarkMayouf/BlogApp/tree/main" // Optional: Add GitHub repo URL
