@@ -18,8 +18,16 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
  */
 
 const items = [
-  {
+   {
     id: 1,
+    title: "A full-featured eCommerce app",
+    img: "./4.png",
+    desc: "A full-featured eCommerce application built with the MERN stack (MongoDB, Express, React, Node.js) and Redux Toolkit. It includes a shopping cart with PayPal and credit card support, product reviews, search, ratings, and pagination. Users can manage profiles and view order history, while admins have full control over products, users, and orders.",
+    demoUrl:"https://promayouftech-w367.onrender.com", // Replace with your actual demo URL
+    githubUrl:"https://github.com/MarkMayouf/PromayoufTech/tree/main" // Optional: Add GitHub repo URL
+  },
+  {
+    id: 2,
     title: "Blog App with AI Writing Assistant",
     img: "./1.png",
     desc: "This full-stack blog app combines A full-stack Blog App built with React, Node.js, Express, and MySQL. It features JWT-based authentication, post creation, file uploads, and dynamic content fetching — plus an integrated AI Writing Assistant to help users generate and refine blog content.",
@@ -27,7 +35,7 @@ const items = [
     githubUrl:"https://github.com/MarkMayouf/BlogApp/tree/main" // Optional: Add GitHub repo URL
   },
   {
-    id: 2,
+    id: 3,
     title: "Recipes App",
     img: "./recipes.png",
     desc: "A modern interactive web app for exploring and saving your favorite meals. Built with HTML, CSS, and JavaScript, it fetches data from a meal API, allowing users to browse recipes, view details, and mark meals as favorites.",
@@ -35,7 +43,7 @@ const items = [
     githubUrl:"https://github.com/MarkMayouf/Recipe_Application"
   },
   {
-    id: 3,
+    id: 4,
     title: "Books store ",
     img: "BOOKS.png",
     desc: "A responsive landing page for a Book Store, built with HTML, CSS, and JavaScript. It features a clean, modern design with a user-friendly layout for showcasing books and engaging visitors",
@@ -52,7 +60,7 @@ const Single = ({ item }) => {
     target: ref,
   });
 
-  const y = useTransform(scrollYProgress, [0, 1], [-200, 200]);
+  const y = useTransform(scrollYProgress, [0, 1], [-200, 300]);
 
   return (
     <section >
