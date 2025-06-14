@@ -1,4 +1,3 @@
-import "./hero.scss";
 import { motion } from "framer-motion";
 
 const textVariants = {
@@ -40,28 +39,36 @@ const sliderVariants = {
 const Hero = () => {
   return (
     <div className="hero">
-      <div className="wrapper">
+      <div className="hero-content">
         <motion.div
-          className="textContainer"
           variants={textVariants}
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>MARK MAYOUF</motion.h2>
-          <motion.h1 variants={textVariants}>
+          <motion.h2 
+            variants={textVariants}
+            className="hero-subtitle"
+          >
+            MARK MAYOUF
+          </motion.h2>
+          <motion.h1 
+            variants={textVariants}
+            className="hero-title"
+          >
             Web Developer 
           </motion.h1>
         </motion.div>
       </div>
+      
+      {/* Sliding Background Text */}
       <motion.div
-        className="slidingTextContainer"
+        className="hero-background-text"
         variants={sliderVariants}
         initial="initial"
         animate="animate"
       >
        MARK MAYOUF
       </motion.div>
-      
     </div>
   );
 };
