@@ -17,11 +17,14 @@ const App = () => {
       </section>
       <section id="Portfolio">
         <Parallax type="portfolio" />
+        <Portfolio />
       </section>
-      <Portfolio />
       <section id="Contact">
         <Contact />
       </section>
+      <footer className="app-footer">
+        <p>Mark©2025</p>
+      </footer>
       {/* Framer Motion Crash Course */}
       {/* <Test/>
     <Test/> */}

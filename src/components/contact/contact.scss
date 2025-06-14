@@ -262,24 +262,4 @@
       }
     }
   }
-  .co{
-    font-size: 13px;
-    padding-top: 40px;
-    display: flex;
-    justify-content: center;
-    color: orange;
-    font-weight: 300;
-    
-    @include mobile {
-      text-align: center;
-      padding: 30px 10px 0;
-      font-size: 12px;
-      margin-top: 0;
-    }
-
-    @include tablet {
-      padding-top: 35px;
-      font-size: 13px;
-    }
-  }
 }

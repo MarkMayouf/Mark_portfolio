@@ -60,7 +60,7 @@ const Contact = () => {
             // Fallback to mailto
             const subject = encodeURIComponent(`Contact from ${name}`)
             const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)
-            window.open(`mailto:bestdeals24hr@outlook.com?subject=${subject}&body=${body}`)
+            window.open(`mailto:mayouv.mark@gmail.com?subject=${subject}&body=${body}`)
             setSuccess(true)
             formRef.current.reset();
           }
@@ -123,7 +123,6 @@ const Contact = () => {
         <motion.div className='item' variants={variants}>
           <h2>Phone</h2>
           <span>+1 929 277 1804</span>
-          <p className='co'>Mark©2025</p>
         </motion.div>
       </motion.div>
       <div className='formContainer'>

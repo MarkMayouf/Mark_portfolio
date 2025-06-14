@@ -69,7 +69,7 @@ const Single = ({ item }) => {
           <div className="imageContainer" ref={ref}>
             <img src={item.img} alt="" />
           </div>
-          <motion.div className="textContainer" style={{y}}>
+          <div className="textContainer">
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <div className="buttonContainer">
@@ -88,7 +88,7 @@ const Single = ({ item }) => {
                 </button>
               )}
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>
