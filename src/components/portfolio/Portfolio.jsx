@@ -14,14 +14,14 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
  */
 
 const items = [
-   {
-    id: 1,
-    title: "A full-featured eCommerce app",
-    img: "./4.png",
-    desc: "A full-featured eCommerce application built with the MERN stack (MongoDB, Express, React, Node.js) and Redux Toolkit. It includes a shopping cart with PayPal and credit card support, product reviews, search, ratings, and pagination. Users can manage profiles and view order history, while admins have full control over products, users, and orders.",
-    demoUrl:"https://promayouftech-w367.onrender.com",
-    githubUrl:"https://github.com/MarkMayouf/PromayoufTech/tree/main"
-  },
+  //  {
+  //   id: 1,
+  //   title: "A full-featured eCommerce app",
+  //   img: "./4.png",
+  //   desc: "A full-featured eCommerce application built with the MERN stack (MongoDB, Express, React, Node.js) and Redux Toolkit. It includes a shopping cart with PayPal and credit card support, product reviews, search, ratings, and pagination. Users can manage profiles and view order history, while admins have full control over products, users, and orders.",
+  //   demoUrl:"https://promayouftech-w367.onrender.com",
+  //   githubUrl:"https://github.com/MarkMayouf/PromayoufTech/tree/main"
+  // },
   {
     id: 2,
     title: "Blog App with AI Writing Assistant",
