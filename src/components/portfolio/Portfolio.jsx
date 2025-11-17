@@ -14,6 +14,7 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
  */
 
 const items = [
+<<<<<<< HEAD
    {
     id: 1,
     title: "Gogo Jeans landing page",
@@ -21,17 +22,34 @@ const items = [
     desc: "A modern, responsive website for GOGO JEANS, the world's leading quick-to-market apparel and lifestyle company. This website showcases multiple fashion brands, services, and provides an interactive customer experience with a built-in chatbot.",
     demoUrl:"https://gogo-jeans-96mp.vercel.app/",
     githubUrl:"https://github.com/MarkMayouf/Gogo_jeans"
+  },   {
+    id: 2,
+    title: "Gogo Jeans landing page",
+    img: "./gogojeans.png",
+    desc: "A modern, responsive website for GOGO JEANS, the world's leading quick-to-market apparel and lifestyle company. This website showcases multiple fashion brands, services, and provides an interactive customer experience with a built-in chatbot.",
+    demoUrl:"https://gogo-jeans-96mp.vercel.app/",
+    githubUrl:"https://github.com/MarkMayouf/Gogo_jeans"
   },
      {
-    id: 2,
+    id: 3,
     title: "A full-featured eCommerce app",
     img: "./4.png",
     desc: "A full-featured eCommerce application built with the MERN stack (MongoDB, Express, React, Node.js) and Redux Toolkit. It includes a shopping cart with PayPal and credit card support, product reviews, search, ratings, and pagination. Users can manage profiles and view order history, while admins have full control over products, users, and orders.",
     demoUrl:"https://promayouftech-w367.onrender.com",
     githubUrl:"https://github.com/MarkMayouf/PromayoufTech/tree/main"
   },
+=======
+  //  {
+  //   id: 1,
+  //   title: "A full-featured eCommerce app",
+  //   img: "./4.png",
+  //   desc: "A full-featured eCommerce application built with the MERN stack (MongoDB, Express, React, Node.js) and Redux Toolkit. It includes a shopping cart with PayPal and credit card support, product reviews, search, ratings, and pagination. Users can manage profiles and view order history, while admins have full control over products, users, and orders.",
+  //   demoUrl:"https://promayouftech-w367.onrender.com",
+  //   githubUrl:"https://github.com/MarkMayouf/PromayoufTech/tree/main"
+  // },
+>>>>>>> 869afb6478535c63c791e32fb830647466de2b79
   {
-    id: 3,
+    id: 4,
     title: "Blog App with AI Writing Assistant",
     img: "./1.png",
     desc: "This full-stack blog app combines A full-stack Blog App built with React, Node.js, Express, and MySQL. It features JWT-based authentication, post creation, file uploads, and dynamic content fetching — plus an integrated AI Writing Assistant to help users generate and refine blog content.",
@@ -39,7 +57,7 @@ const items = [
     githubUrl:"https://github.com/MarkMayouf/BlogApp/tree/main"
   },
   {
-    id: 4,
+    id: 5,
     title: "Recipes App",
     img: "./recipes.png",
     desc: "A modern interactive web app for exploring and saving your favorite meals. Built with HTML, CSS, and JavaScript, it fetches data from a meal API, allowing users to browse recipes, view details, and mark meals as favorites.",
@@ -47,7 +65,7 @@ const items = [
     githubUrl:"https://github.com/MarkMayouf/Recipe_Application"
   },
   {
-    id: 5,
+    id: 6,
     title: "Books store ",
     img: "BOOKS.png",
     desc: "A responsive landing page for a Book Store, built with HTML, CSS, and JavaScript. It features a clean, modern design with a user-friendly layout for showcasing books and engaging visitors",
