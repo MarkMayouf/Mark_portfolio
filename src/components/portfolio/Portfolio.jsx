@@ -14,7 +14,7 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
  */
 
 const items = [
-<<<<<<< HEAD
+
    {
     id: 1,
     title: "Gogo Jeans landing page",
@@ -29,15 +29,15 @@ const items = [
     desc: "MODERN SHOP. Built with the powerful and flexible WordPress Content Management System (CMS) and integrated e-commerce functionality (likely via the WooCommerce plugin), a website offers a seamless and user-friendly shopping experience ."
     ,demoUrl:"https://expensiveforcheap.com/"
   },
-     {
-    id: 3,
-    title: "A full-featured eCommerce app",
-    img: "./4.png",
-    desc: "A full-featured eCommerce application built with the MERN stack (MongoDB, Express, React, Node.js) and Redux Toolkit. It includes a shopping cart with PayPal and credit card support, product reviews, search, ratings, and pagination. Users can manage profiles and view order history, while admins have full control over products, users, and orders.",
-    demoUrl:"https://promayouftech-w367.onrender.com",
-    githubUrl:"https://github.com/MarkMayouf/PromayoufTech/tree/main"
-  },
-=======
+  //    {
+  //   id: 3,
+  //   title: "A full-featured eCommerce app",
+  //   img: "./4.png",
+  //   desc: "A full-featured eCommerce application built with the MERN stack (MongoDB, Express, React, Node.js) and Redux Toolkit. It includes a shopping cart with PayPal and credit card support, product reviews, search, ratings, and pagination. Users can manage profiles and view order history, while admins have full control over products, users, and orders.",
+  //   demoUrl:"https://promayouftech-w367.onrender.com",
+  //   githubUrl:"https://github.com/MarkMayouf/PromayoufTech/tree/main"
+  // },
+
   //  {
   //   id: 1,
   //   title: "A full-featured eCommerce app",
@@ -46,7 +46,7 @@ const items = [
   //   demoUrl:"https://promayouftech-w367.onrender.com",
   //   githubUrl:"https://github.com/MarkMayouf/PromayoufTech/tree/main"
   // },
->>>>>>> 869afb6478535c63c791e32fb830647466de2b79
+
   {
     id: 4,
     title: "Blog App with AI Writing Assistant",
