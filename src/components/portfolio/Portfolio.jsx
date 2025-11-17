@@ -24,11 +24,10 @@ const items = [
     githubUrl:"https://github.com/MarkMayouf/Gogo_jeans"
   },   {
     id: 2,
-    title: "Gogo Jeans landing page",
-    img: "./gogojeans.png",
-    desc: "A modern, responsive website for GOGO JEANS, the world's leading quick-to-market apparel and lifestyle company. This website showcases multiple fashion brands, services, and provides an interactive customer experience with a built-in chatbot.",
-    demoUrl:"https://gogo-jeans-96mp.vercel.app/",
-    githubUrl:"https://github.com/MarkMayouf/Gogo_jeans"
+    title: "MODERN SHOP",
+    img: "./MODERNSHOP.png",
+    desc: "MODERN SHOP. Built with the powerful and flexible WordPress Content Management System (CMS) and integrated e-commerce functionality (likely via the WooCommerce plugin), a website offers a seamless and user-friendly shopping experience ."
+    ,demoUrl:"https://expensiveforcheap.com/"
   },
      {
     id: 3,
